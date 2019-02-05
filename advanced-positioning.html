@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang='en'>
+    <head>
+        <meta charset='utf-8'/>
+        <title>Advanced Positioning</title>
+        <link href="https://fonts.googleapis.com/css?family=Rufina:700|Crimson+Text:400,600" rel="stylesheet">
+        <link rel='stylesheet' href='styles.css'/>
+    </head>
+
+    <body>        
+        <a href='home.html'>
+            <header>
+                <h1 class='header-text'>HTML and CSS Documentation</h1>
+            </header>  
+        </a>
+
+        <div class='body-container'>
+                            
+            <div class='sidebar-container'>
+                <div class='sidebar-content'>
+                    <h2 id='categories'>Categories</h2>
+                    <ul>
+                        <li class='dropdown'>
+                            <a href='beginner-pages.html'>Beginner Pages ▾</a>
+                            <ul class='dropdown-items'>
+                                <li><a href='beginner-pages.html#head-and-body'><code>&lt;head&gt;</code> and <code>&lt;body&gt;</code></a></li>
+                                <li><a href='beginner-pages.html#title'><code>&lt;title&gt;</code></a></li>
+                                <li><a href='beginner-pages.html#paragraphs'><code>&lt;p&gt;</code></a></li>
+                                <li><a href='beginner-pages.html#headings'>Headings</a></li>
+                                <li><a href='beginner-pages.html#lists'><code>&lt;ul&gt;</code>, <code>&lt;ol&gt;</code>, and <code>&lt;li&gt;</code></a></li>
+                                <li><a href='beginner-pages.html#em'><code>&lt;em&gt;</code></a></li>
+                                <li><a href='beginner-pages.html#bold'><code>&lt;bold&gt;</code></a></li>
+                                <li><a href='beginner-pages.html#br'><code>&lt;br&gt;</code></a></li>
+                                <li><a href='beginner-pages.html#hr'><code>&lt;hr&gt;</code></a></li>
+                            </ul>
+                        </li>
+                        <li class='dropdown'>
+                            <a href='links-and-images.html'>Links and Images ▾</a>
+                            <ul class='dropdown-items'>
+                                <li><a href='links-and-images.html#a'><code>&lt;a&gt;</code></a></li>
+                                <li><a href='links-and-images.html#link-types'>Types of Links</a></li>
+                                <li><a href='links-and-images.html#link-targets'>Link Targets</a></li>
+                                <li><a href='links-and-images.html#images'>Images</a></li>
+                                <li><a href='links-and-images.html#image-dimensions'>Image Dimensions</a></li>
+                                <li><a href='links-and-images.html#alt'><code>&lt;alt&gt;</code></a></li>
+                                <li><a href='links-and-images.html#html-lang'>Document Language</a></li>
+                                <li><a href='links-and-images.html#charset'>Character Sets</a></li>
+                            </ul>
+                        </li>
+                        <li class='dropdown'>
+                            <a href='learning-css.html'>Learning CSS ▾</a>
+                            <ul class='dropdown-items'>
+                                <li><a href='learning-css.html#css-rules'>CSS Rules</a></li>
+                                <li><a href='learning-css.html#color'><code>color</code></a></li>
+                                <li><a href='learning-css.html#linking-css'>Linking a CSS Stylesheet</a></li>
+                                <li><a href='learning-css.html#background-color'><code>background-color</code></a></li>
+                                <li><a href='learning-css.html#font-size'><code>font-size</code></a></li>
+                                <li><a href='learning-css.html#font-family'><code>font-family</code></a></li>
+                                <li><a href='learning-css.html#list-styles'><code>list-style-type</code></a></li>
+                                <li><a href='learning-css.html#text-decoration'><code>text-decoration</code></a></li>
+                                <li><a href='learning-css.html#text-align'><code>text-align</code></a></li>
+                                <li><a href='learning-css.html#font-weight-style'><code>font-weight</code>, <code>font-style</code></a></li>
+                                <li><a href='learning-css.html#css-hierarchy'>The CSS Hierarchy</a></li>
+                                <li><a href='learning-css.html#line-height'><code>line-height</code></a></li>
+                            </ul>
+                        </li>
+                        <li class='dropdown'>
+                            <a href='css-box-model.html'>The CSS Box Model ▾</a>
+                            <ul class='dropdown-items'>
+                                <li><a href='css-box-model.html#block-elements'>Block Element Rules</a></li>
+                                <li><a href='css-box-model.html#display'><code>display</code></a></li>
+                                <li><a href='css-box-model.html#box-model'>The CSS Box Model</a></li>
+                                <li><a href='css-box-model.html#padding'><code>padding</code></a></li>
+                                <li><a href='css-box-model.html#border'><code>border</code></a></li>
+                                <li><a href='css-box-model.html#margin'><code>margin</code></a></li>
+                                <li><a href='css-box-model.html#div-and-span'><code>&lt;div&gt;</code> and <code>&lt;span&gt;</code></a></li>
+                                <li><a href='css-box-model.html#explicit-dimensions'><code>width</code> and <code>height</code></a></li>
+                                <li><a href='css-box-model.html#box-sizing'><code>box-sizing</code></a></li>
+                                <li><a href='css-box-model.html#universal-css-selector'>Resetting Styles</a></li>
+                            </ul>
+                        </li>
+                        <li class='dropdown'>
+                            <a href='css-selectors.html'>CSS Selectors ▾</a>
+                            <ul class='dropdown-items'>
+                                <li><a href='css-selectors.html#class-selectors'><code>class</code></a></li>
+                                <li><a href='css-selectors.html#auto-margin'>Auto-margin</a></li>
+                                <li><a href='css-selectors.html#link-pseudo-classes'>Pseudo-classes for Links</a></li>
+                                <li><a href='css-selectors.html#button-pseudo-classes'>Pseudo-classes for Buttons</a></li>
+                                <li><a href='css-selectors.html#structure-pseudo-classes'>Pseudo-classes for Structure</a></li>
+                                <li><a href='css-selectors.html#id-selectors'><code>id</code></a></li>
+                                <li><a href='css-selectors.html#css-specificity'>CSS Specificity</a></li>
+                            </ul>
+                        </li>
+                        <li class='dropdown'>
+                            <a href='floats.html'>Floats ▾</a>
+                            <ul class='dropdown-items'>
+                                <li><a href='floats.html#float'>Floating an Element</a></li>
+                                <li><a href='floats.html#clear-float'>Clearing Floats</a></li>
+                                <li><a href='floats.html#hide-overflow'>Hiding Overflow</a></li>
+                                <li><a href='floats.html#float-column'>Multi-column Layout</a></li>
+                                <li><a href='floats.html#float-grid'>Floats for Grids</a></li>
+                                <li><a href='floats.html#float-image'>Floats and Images</a></li>
+                            </ul>
+                        </li>
+                        <li class='dropdown'>
+                            <a href='flexbox.html'>Flexbox ▾</a>
+                            <ul class='dropdown-items'>
+                                <li><a href='flexbox.html#flexbox'>Flex Containers</a></li>
+                                <li><a href='flexbox.html#flex-horiz'>Horizontal Alignment</a></li>
+                                <li><a href='flexbox.html#flex-vert'>Vertical Alignment</a></li>
+                                <li><a href='flexbox.html#flex-wrap'>Wrapping Flex Items</a></li>
+                                <li><a href='responsive-design.html#flex-direction'><code>flex-direction</code></a></li>
+                                <li><a href='responsive-design.html#flex-order'><code>order</code></a></li>
+                                <li><a href='responsive-design.html#flex-self'>Flex Item Alignment</a></li>
+                                <li><a href='responsive-design.html#flexible'><code>flex</code></a></li>
+                                <li><a href='responsive-design.html#flex-auto-margin'>Flex Items and Auto-margins</a></li>              
+                            </ul>
+                        </li>
+                        <li class='dropdown'>
+                            <a href='advanced-positioning.html'>Advanced Positioning ▾</a>
+                            <ul class='dropdown-items'>
+                                    <li><a href='advanced-positioning.html#position'><code>position</code></a></li>
+                                    <li><a href='advanced-positioning.html#inline-menu'>Inline Menu Items</a></li>
+                                    <li><a href='advanced-positioning.html#dropdown-pseudo'>Pseudo-classes for Dropdown Menus</a></li>
+                                </ul>
+                        </li>
+                        <li class='dropdown'>
+                            <a href='responsive-design.html'>Responsive Design ▾</a>
+                            <ul class='dropdown-items'>
+                                <li><a href='responsive-design.html#mobile'>Mobile Styles</a></li>
+                                <li><a href='responsive-design.html#tablet'>Tablet Styles</a></li>
+                                <li><a href='responsive-design.html#desktop'>Desktop Styles</a></li>
+                                <li><a href='responsive-design.html#patterns'>Responsive Web Design Patterns</a></li>
+                                <li><a href='responsive-design.html#viewport-zooming'>Disabling Viewport Zooming</a></li>
+                                <li><a href='responsive-design.html#svg-max-width'>Max Width for SVG Images</a></li>
+                                <li><a href='responsive-design.html#img-max-width'>Max Width for PNG, GIF, and JPG Images</a></li>
+                                <li><a href='responsive-design.html#retina-optimazation'>Retina Image Optimazation</a></li>
+                                <li><a href='responsive-design.html#screen-width'>Screen Size Optimazation</a></li>
+                            </ul>
+                        </li>
+                        <li class='dropdown'>
+                            <a href='semantic-html.html'>Semantic HTML ▾</a>
+                            <ul class='dropdown-items'>
+                                <li><a href='semantic-html.html#article'><code>&lt;article&gt;</code></a></li>
+                                <li><a href='semantic-html.html#section'><code>&lt;section&gt;</code></a></li>
+                                <li><a href='semantic-html.html#nav'><code>&lt;nav&gt;</code></a></li>
+                                <li><a href='semantic-html.html#header'><code>&lt;header&gt;</code></a></li>
+                                <li><a href='semantic-html.html#footer'><code>&lt;footer&gt;</code></a></li>
+                                <li><a href='semantic-html.html#aside'><code>&lt;aside&gt;</code></a></li>
+                                <li><a href='semantic-html.html#dates-and-times'>Dates and Times</a></li>
+                                <li><a href='semantic-html.html#address'><code>&lt;address&gt;</code></a></li>
+                                <li><a href='semantic-html.html#figures-captions'>Figures and Captions</a></li>
+                            </ul>
+                        </li>
+                        <li class='dropdown'>
+                            <a href='forms.html'>HTML Forms ▾</a>
+                            <ul class='dropdown-items'>
+                                <li><a href='forms.html#form-setup'>Setting Up a Form</a></li>
+                                <li><a href='forms.html#text-input'>Text Input Fields</a></li>
+                                <li><a href='forms.html#text-style'>Styling Text Input Fields</a></li>
+                                <li><a href='forms.html#email-input'>Email Input Fields</a></li>
+                                <li><a href='forms.html#form-pseudo-classes'>Form Pseudo-classes</a></li>
+                                <li><a href='forms.html#radio-buttons'>Radio Buttons</a></li>
+                                <li><a href='forms.html#select-menus'>Dropdown Menus</a></li>
+                                <li><a href='forms.html#select-menu-font'>Dropdown Menu Font Size</a></li>
+                                <li><a href='forms.html#textareas'>Textareas</a></li>
+                                <li><a href='forms.html#textareas-style'>Styling Textareas</a></li>
+                                <li><a href='forms.html#checkboxes'>Checkboxes</a></li>
+                                <li><a href='forms.html#submit'>Submit Buttons</a></li>
+                            </ul>
+                        </li>
+                        <li class='dropdown'>
+                            <a href='web-typography.html'>Web Typography ▾</a>
+                            <ul class='dropdown-items'>
+                                <li><a href='web-typography.html#web-fonts'>Web Fonts</a></li>
+                                <li><a href='web-typography.html#paragraph-indents'>Paragraph Indents</a></li>
+                                <li><a href='web-typography.html#text-alignment'>Text Alignment</a></li>
+                                <li><a href='web-typography.html#line-spacing'>Line Spacing</a></li>
+                                <li><a href='web-typography.html#line-length'>Line Length</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>                    
+            </div>            
+    
+            <div class='content-container'>
+                <div class='page-link'>Visit the Advanced Positioning <a href='../advanced-positioning/menu.html'>menu</a> and <a href='../advanced-positioning/schemes.html'>schemes</a> webpages.</div>
+
+                <h1>Advanced Positioning</h1>
+                <div class='intro'><p>Deviating from static positioning, this section will cover relative, absolute, and fixed positioning. Each of these let you manually position elements using specific coordinates.</p></div>
+
+                <div class='topic css' id='position'>
+                    <h2><code>position</code></h2>
+                    <h3>Relative Positioning</h3>
+                    <p><code>position: relative;</code></p>
+                    <p>After making the element a positioned element, use pixel values after <code>top:</code> or  <code>bottom:</code>, and/or <code>left:</code> or <code>right:</code> styles to determine how much to offset the element.</p>
+                    <p>This property is similar to margins, except surrounding and parent elements are affected.</p>
+                    <h3>Absolute Positioning</h3>
+                    <p><code>position: absolute;</code></p>
+                    <p>This is similar to relative positioning, but the offset is relative to the entire browser window instead of the original position of the element. Assigning this to an element completely removes it from the flow of the page, and the surrounding elements act as if it isn't there.</p>
+                    <p>Absolute positioning is much more practical when it's relative to another element that is in the static flow of the page. To do this, make its parent element relatively positioned.</p>
+                    <h3>Fixed Positioning</h3>
+                    <p><code>position: fixed</code></p>
+                    <p>Fixed elements are also relative to the entire browser window, but they do not scroll with the rest of the page.</p>
+                </div>
+
+                <div class='topic css' id='inline-menu'>
+                    <h2>Inline Menu Items</h2>
+                    <p>List items, by default, stack vertically. To make them look more like menu items, remove the <code>text-decoration</code> and make them <code>inline</code> on the container.</p>
+                    <p><code>display: inline;</code></p>
+                </div>
+
+                <div class='topic css' id='dropdown-pseudo'>
+                    <h2>Pseudo-classes for Dropdown Menus</h2>
+                    <p>To make a dropdown menu appear only when the mouse is hovering over the category, make sure that the dropdown says <code>display: none</code> in the stylesheet. This should be the only property for that class. Any other changes you want to make to the flex, background, and other styling should be specified under the parent class and <code>:hover</code>, so that the browser knows to only show the menu when its parent element is being hovered over.</p>
+                    <p><code>.dropdown:hover .features-menu {<br>&emsp;&emsp;&emsp;display: flex;<br>&emsp;&emsp;&emsp;flex-direction: column;<br>&emsp;&emsp;&emsp;background: #B2D6FF;<br>&emsp;&emsp;&emsp;/* etc */<br>&emsp;}</code></p>
+                </div>
+            </div>
+
+        </div>
+    </body>
+</html>

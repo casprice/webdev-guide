@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang='en'>
+    <head>
+        <meta charset='utf-8'/>
+        <title>Learning CSS</title>
+        <link href="https://fonts.googleapis.com/css?family=Rufina:700|Crimson+Text:400,600" rel="stylesheet">
+        <link rel='stylesheet' href='styles.css'/>
+    </head>
+
+    <body>
+        <a href='home.html'>
+            <header>
+                <h1 class='header-text'>HTML and CSS Documentation</h1>
+            </header>  
+        </a>
+
+        <div class='body-container'>
+                            
+            <div class='sidebar-container'>
+                <div class='sidebar-content'>
+                    <h2 id='categories'>Categories</h2>
+                    <ul>
+                        <li class='dropdown'>
+                            <a href='beginner-pages.html'>Beginner Pages ▾</a>
+                            <ul class='dropdown-items'>
+                                <li><a href='beginner-pages.html#head-and-body'><code>&lt;head&gt;</code> and <code>&lt;body&gt;</code></a></li>
+                                <li><a href='beginner-pages.html#title'><code>&lt;title&gt;</code></a></li>
+                                <li><a href='beginner-pages.html#paragraphs'><code>&lt;p&gt;</code></a></li>
+                                <li><a href='beginner-pages.html#headings'>Headings</a></li>
+                                <li><a href='beginner-pages.html#lists'><code>&lt;ul&gt;</code>, <code>&lt;ol&gt;</code>, and <code>&lt;li&gt;</code></a></li>
+                                <li><a href='beginner-pages.html#em'><code>&lt;em&gt;</code></a></li>
+                                <li><a href='beginner-pages.html#bold'><code>&lt;bold&gt;</code></a></li>
+                                <li><a href='beginner-pages.html#br'><code>&lt;br&gt;</code></a></li>
+                                <li><a href='beginner-pages.html#hr'><code>&lt;hr&gt;</code></a></li>
+                            </ul>
+                        </li>
+                        <li class='dropdown'>
+                            <a href='links-and-images.html'>Links and Images ▾</a>
+                            <ul class='dropdown-items'>
+                                <li><a href='links-and-images.html#a'><code>&lt;a&gt;</code></a></li>
+                                <li><a href='links-and-images.html#link-types'>Types of Links</a></li>
+                                <li><a href='links-and-images.html#link-targets'>Link Targets</a></li>
+                                <li><a href='links-and-images.html#images'>Images</a></li>
+                                <li><a href='links-and-images.html#image-dimensions'>Image Dimensions</a></li>
+                                <li><a href='links-and-images.html#alt'><code>&lt;alt&gt;</code></a></li>
+                                <li><a href='links-and-images.html#html-lang'>Document Language</a></li>
+                                <li><a href='links-and-images.html#charset'>Character Sets</a></li>
+                            </ul>
+                        </li>
+                        <li class='dropdown'>
+                            <a href='learning-css.html'>Learning CSS ▾</a>
+                            <ul class='dropdown-items'>
+                                <li><a href='learning-css.html#css-rules'>CSS Rules</a></li>
+                                <li><a href='learning-css.html#color'><code>color</code></a></li>
+                                <li><a href='learning-css.html#linking-css'>Linking a CSS Stylesheet</a></li>
+                                <li><a href='learning-css.html#background-color'><code>background-color</code></a></li>
+                                <li><a href='learning-css.html#font-size'><code>font-size</code></a></li>
+                                <li><a href='learning-css.html#font-family'><code>font-family</code></a></li>
+                                <li><a href='learning-css.html#list-styles'><code>list-style-type</code></a></li>
+                                <li><a href='learning-css.html#text-decoration'><code>text-decoration</code></a></li>
+                                <li><a href='learning-css.html#text-align'><code>text-align</code></a></li>
+                                <li><a href='learning-css.html#font-weight-style'><code>font-weight</code>, <code>font-style</code></a></li>
+                                <li><a href='learning-css.html#css-hierarchy'>The CSS Hierarchy</a></li>
+                                <li><a href='learning-css.html#line-height'><code>line-height</code></a></li>
+                            </ul>
+                        </li>
+                        <li class='dropdown'>
+                            <a href='css-box-model.html'>The CSS Box Model ▾</a>
+                            <ul class='dropdown-items'>
+                                <li><a href='css-box-model.html#block-elements'>Block Element Rules</a></li>
+                                <li><a href='css-box-model.html#display'><code>display</code></a></li>
+                                <li><a href='css-box-model.html#box-model'>The CSS Box Model</a></li>
+                                <li><a href='css-box-model.html#padding'><code>padding</code></a></li>
+                                <li><a href='css-box-model.html#border'><code>border</code></a></li>
+                                <li><a href='css-box-model.html#margin'><code>margin</code></a></li>
+                                <li><a href='css-box-model.html#div-and-span'><code>&lt;div&gt;</code> and <code>&lt;span&gt;</code></a></li>
+                                <li><a href='css-box-model.html#explicit-dimensions'><code>width</code> and <code>height</code></a></li>
+                                <li><a href='css-box-model.html#box-sizing'><code>box-sizing</code></a></li>
+                                <li><a href='css-box-model.html#universal-css-selector'>Resetting Styles</a></li>
+                            </ul>
+                        </li>
+                        <li class='dropdown'>
+                            <a href='css-selectors.html'>CSS Selectors ▾</a>
+                            <ul class='dropdown-items'>
+                                <li><a href='css-selectors.html#class-selectors'><code>class</code></a></li>
+                                <li><a href='css-selectors.html#auto-margin'>Auto-margin</a></li>
+                                <li><a href='css-selectors.html#link-pseudo-classes'>Pseudo-classes for Links</a></li>
+                                <li><a href='css-selectors.html#button-pseudo-classes'>Pseudo-classes for Buttons</a></li>
+                                <li><a href='css-selectors.html#structure-pseudo-classes'>Pseudo-classes for Structure</a></li>
+                                <li><a href='css-selectors.html#id-selectors'><code>id</code></a></li>
+                                <li><a href='css-selectors.html#css-specificity'>CSS Specificity</a></li>
+                            </ul>
+                        </li>
+                        <li class='dropdown'>
+                            <a href='floats.html'>Floats ▾</a>
+                            <ul class='dropdown-items'>
+                                <li><a href='floats.html#float'>Floating an Element</a></li>
+                                <li><a href='floats.html#clear-float'>Clearing Floats</a></li>
+                                <li><a href='floats.html#hide-overflow'>Hiding Overflow</a></li>
+                                <li><a href='floats.html#float-column'>Multi-column Layout</a></li>
+                                <li><a href='floats.html#float-grid'>Floats for Grids</a></li>
+                                <li><a href='floats.html#float-image'>Floats and Images</a></li>
+                            </ul>
+                        </li>
+                        <li class='dropdown'>
+                            <a href='flexbox.html'>Flexbox ▾</a>
+                            <ul class='dropdown-items'>
+                                <li><a href='flexbox.html#flexbox'>Flex Containers</a></li>
+                                <li><a href='flexbox.html#flex-horiz'>Horizontal Alignment</a></li>
+                                <li><a href='flexbox.html#flex-vert'>Vertical Alignment</a></li>
+                                <li><a href='flexbox.html#flex-wrap'>Wrapping Flex Items</a></li>
+                                <li><a href='responsive-design.html#flex-direction'><code>flex-direction</code></a></li>
+                                <li><a href='responsive-design.html#flex-order'><code>order</code></a></li>
+                                <li><a href='responsive-design.html#flex-self'>Flex Item Alignment</a></li>
+                                <li><a href='responsive-design.html#flexible'><code>flex</code></a></li>
+                                <li><a href='responsive-design.html#flex-auto-margin'>Flex Items and Auto-margins</a></li>              
+                            </ul>
+                        </li>
+                        <li class='dropdown'>
+                            <a href='advanced-positioning.html'>Advanced Positioning ▾</a>
+                            <ul class='dropdown-items'>
+                                    <li><a href='advanced-positioning.html#position'><code>position</code></a></li>
+                                    <li><a href='advanced-positioning.html#inline-menu'>Inline Menu Items</a></li>
+                                    <li><a href='advanced-positioning.html#dropdown-pseudo'>Pseudo-classes for Dropdown Menus</a></li>
+                                </ul>
+                        </li>
+                        <li class='dropdown'>
+                            <a href='responsive-design.html'>Responsive Design ▾</a>
+                            <ul class='dropdown-items'>
+                                <li><a href='responsive-design.html#mobile'>Mobile Styles</a></li>
+                                <li><a href='responsive-design.html#tablet'>Tablet Styles</a></li>
+                                <li><a href='responsive-design.html#desktop'>Desktop Styles</a></li>
+                                <li><a href='responsive-design.html#patterns'>Responsive Web Design Patterns</a></li>
+                                <li><a href='responsive-design.html#viewport-zooming'>Disabling Viewport Zooming</a></li>
+                                <li><a href='responsive-design.html#svg-max-width'>Max Width for SVG Images</a></li>
+                                <li><a href='responsive-design.html#img-max-width'>Max Width for PNG, GIF, and JPG Images</a></li>
+                                <li><a href='responsive-design.html#retina-optimazation'>Retina Image Optimazation</a></li>
+                                <li><a href='responsive-design.html#screen-width'>Screen Size Optimazation</a></li>
+                            </ul>
+                        </li>
+                        <li class='dropdown'>
+                            <a href='semantic-html.html'>Semantic HTML ▾</a>
+                            <ul class='dropdown-items'>
+                                <li><a href='semantic-html.html#article'><code>&lt;article&gt;</code></a></li>
+                                <li><a href='semantic-html.html#section'><code>&lt;section&gt;</code></a></li>
+                                <li><a href='semantic-html.html#nav'><code>&lt;nav&gt;</code></a></li>
+                                <li><a href='semantic-html.html#header'><code>&lt;header&gt;</code></a></li>
+                                <li><a href='semantic-html.html#footer'><code>&lt;footer&gt;</code></a></li>
+                                <li><a href='semantic-html.html#aside'><code>&lt;aside&gt;</code></a></li>
+                                <li><a href='semantic-html.html#dates-and-times'>Dates and Times</a></li>
+                                <li><a href='semantic-html.html#address'><code>&lt;address&gt;</code></a></li>
+                                <li><a href='semantic-html.html#figures-captions'>Figures and Captions</a></li>
+                            </ul>
+                        </li>
+                        <li class='dropdown'>
+                            <a href='forms.html'>HTML Forms ▾</a>
+                            <ul class='dropdown-items'>
+                                <li><a href='forms.html#form-setup'>Setting Up a Form</a></li>
+                                <li><a href='forms.html#text-input'>Text Input Fields</a></li>
+                                <li><a href='forms.html#text-style'>Styling Text Input Fields</a></li>
+                                <li><a href='forms.html#email-input'>Email Input Fields</a></li>
+                                <li><a href='forms.html#form-pseudo-classes'>Form Pseudo-classes</a></li>
+                                <li><a href='forms.html#radio-buttons'>Radio Buttons</a></li>
+                                <li><a href='forms.html#select-menus'>Dropdown Menus</a></li>
+                                <li><a href='forms.html#select-menu-font'>Dropdown Menu Font Size</a></li>
+                                <li><a href='forms.html#textareas'>Textareas</a></li>
+                                <li><a href='forms.html#textareas-style'>Styling Textareas</a></li>
+                                <li><a href='forms.html#checkboxes'>Checkboxes</a></li>
+                                <li><a href='forms.html#submit'>Submit Buttons</a></li>
+                            </ul>
+                        </li>
+                        <li class='dropdown'>
+                            <a href='web-typography.html'>Web Typography ▾</a>
+                            <ul class='dropdown-items'>
+                                <li><a href='web-typography.html#web-fonts'>Web Fonts</a></li>
+                                <li><a href='web-typography.html#paragraph-indents'>Paragraph Indents</a></li>
+                                <li><a href='web-typography.html#text-alignment'>Text Alignment</a></li>
+                                <li><a href='web-typography.html#line-spacing'>Line Spacing</a></li>
+                                <li><a href='web-typography.html#line-length'>Line Length</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>                    
+            </div>            
+    
+            <div class='content-container'>
+                <div class='page-link'><a href='../learning-css/hello-css.html'>Visit the Learning CSS website</a></div>
+
+                <h1>Learning CSS</h1>
+                <div class='topic css' id='css-rules'>
+                    <h2>CSS Rules</h2>
+                    <p>CSS rules begin with a selector that defines which HTML elements it applies to. For example, if you wanted to edit the body of the web page, you would type:</p>
+                    <p><code>body {<br/>&emsp;&emsp;&emsp;color: #FF0000;<br/>&emsp;}</code> </p>
+                </div>
+
+                <div class='topic css' id='color'>
+                    <h2><code>color</code></h2>
+                    <p>This is a property that determines the text color of whatever HTML elements have been selected. It accepts hexadecimal and rgb values.</p>
+                </div>
+
+                <div class='topic html' id='linking-css'>
+                    <h2>Linking a CSS Stylesheet</h2>
+                    <p>Include <code>&lt;link rel='stylesheet' href='styles.css'/&gt;</code> in the head of your HTML file to link the CSS stylesheet to it. Rename the <code>href</code> reference to name of the CSS file. The <code>rel</code> attribute defines the relationship between the resource and the HTML document.</p>
+                </div>
+
+                <div class='topic css' id='background-color'>
+                    <h2><code>background-color</code></h2>
+                    <p>Pretty self-explanatory. Usually pick text and background colors that do not have high contrast (so not pure black vs. pure white).</p>
+                </div>
+
+                <div class='topic css' id='font-size'>
+                    <h2><code>font-size</code></h2>
+                    <p>Change the font size of different elements on your web page. This can be done in <code>px</code> or units of <code>em</code>. The <code>em</code> unit scales to match the base font however many times the size.</p>
+                </div>
+
+                <div class='topic css' id='font-family'>
+                    <h2><code>font-family</code></h2>
+                    <p>This property defines multiple values for the typeface in double quotation marks, and the browser will try to use the fonts listed in the precedence you have ordered them. </p>
+                </div>
+
+                <div class='topic css' id='list-styles'>
+                    <h2><code>list-style-type</code></h2>
+                    <p>For unordered and ordered lists, specifying the <code>list-style-type</code> in the CSS allows you to change bullet or numbered icons, or remove them completely.</p>
+                </div>
+
+                <div class='topic css' id='text-decoration'>
+                    <h2><code>text-decoration</code></h2>
+                    <p>This property determines whether text is underlined or not. This is typically used on links to remove the default underlining by setting <code>text-decoration</code> to <code>none</code>. You can also use <code>line-through</code> on this property to create a strikethrough feature on your text.</p>
+                </div>
+
+                <div class='topic css' id='text-align'>
+                    <h2><code>text-align</code></h2>
+                    <p>This property defines the text alignment, which can be <code>left, right, center,</code> or <code>justify</code>.</p>
+                </div>
+
+                <div class='topic css' id='font-weight-style'>
+                    <h2><code>font-weight</code> and <code>font-style</code></h2>
+                    <p>The <code>font-weight</code> defines the "boldness" of the text, while <code>font-style</code> indicates whether it's italicized or not.</p>
+                </div>
+
+                <div class='topic css' id='css-hierarchy'>
+                    <h2>The CSS Hierarchy</h2>
+                    <p>The different forms of styles that can be used on a webpage are organized like so from highest to lowest precedence:</p>
+                    <ol id='css-hierarchy-list'>
+                        <li>Inline styles</li>
+                        <li>Page-specific styles</li>
+                        <li>External stylesheets</li>
+                        <li>User-defined stylesheets</li>
+                        <li>The browser's default stylesheet</li>
+                    </ol>
+                    <p>In the same effect, a page-specific style would qualify using the <code>&lt;style&gt;&lt;/style&gt;</code> tag in the <code>&lt;head&gt;</code> of the HTML file and creating styles that will only be used on that one web page. </p>
+                    <p>If you link multiple stylesheets to a web page, the stylesheet(s) lower down in the list will override any stylesheets above it.</p>
+                </div>
+
+            </div>
+
+        </div>
+    </body>
+</html>

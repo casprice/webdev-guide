@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang='en'>
+    <head>
+        <meta charset='utf-8'/>
+        <title>HTML Forms</title>
+        <link href="https://fonts.googleapis.com/css?family=Rufina:700|Crimson+Text:400,600" rel="stylesheet">
+        <link rel='stylesheet' href='styles.css'/>
+    </head>
+
+    <body>        
+        <a href='home.html'>
+            <header>
+                <h1 class='header-text'>HTML and CSS Documentation</h1>
+            </header>  
+        </a>
+
+        <div class='body-container'>
+                            
+            <div class='sidebar-container'>
+                <div class='sidebar-content'>
+                    <h2 id='categories'>Categories</h2>
+                    <ul>
+                        <li class='dropdown'>
+                            <a href='beginner-pages.html'>Beginner Pages ▾</a>
+                            <ul class='dropdown-items'>
+                                <li><a href='beginner-pages.html#head-and-body'><code>&lt;head&gt;</code> and <code>&lt;body&gt;</code></a></li>
+                                <li><a href='beginner-pages.html#title'><code>&lt;title&gt;</code></a></li>
+                                <li><a href='beginner-pages.html#paragraphs'><code>&lt;p&gt;</code></a></li>
+                                <li><a href='beginner-pages.html#headings'>Headings</a></li>
+                                <li><a href='beginner-pages.html#lists'><code>&lt;ul&gt;</code>, <code>&lt;ol&gt;</code>, and <code>&lt;li&gt;</code></a></li>
+                                <li><a href='beginner-pages.html#em'><code>&lt;em&gt;</code></a></li>
+                                <li><a href='beginner-pages.html#bold'><code>&lt;bold&gt;</code></a></li>
+                                <li><a href='beginner-pages.html#br'><code>&lt;br&gt;</code></a></li>
+                                <li><a href='beginner-pages.html#hr'><code>&lt;hr&gt;</code></a></li>
+                            </ul>
+                        </li>
+                        <li class='dropdown'>
+                            <a href='links-and-images.html'>Links and Images ▾</a>
+                            <ul class='dropdown-items'>
+                                <li><a href='links-and-images.html#a'><code>&lt;a&gt;</code></a></li>
+                                <li><a href='links-and-images.html#link-types'>Types of Links</a></li>
+                                <li><a href='links-and-images.html#link-targets'>Link Targets</a></li>
+                                <li><a href='links-and-images.html#images'>Images</a></li>
+                                <li><a href='links-and-images.html#image-dimensions'>Image Dimensions</a></li>
+                                <li><a href='links-and-images.html#alt'><code>&lt;alt&gt;</code></a></li>
+                                <li><a href='links-and-images.html#html-lang'>Document Language</a></li>
+                                <li><a href='links-and-images.html#charset'>Character Sets</a></li>
+                            </ul>
+                        </li>
+                        <li class='dropdown'>
+                            <a href='learning-css.html'>Learning CSS ▾</a>
+                            <ul class='dropdown-items'>
+                                <li><a href='learning-css.html#css-rules'>CSS Rules</a></li>
+                                <li><a href='learning-css.html#color'><code>color</code></a></li>
+                                <li><a href='learning-css.html#linking-css'>Linking a CSS Stylesheet</a></li>
+                                <li><a href='learning-css.html#background-color'><code>background-color</code></a></li>
+                                <li><a href='learning-css.html#font-size'><code>font-size</code></a></li>
+                                <li><a href='learning-css.html#font-family'><code>font-family</code></a></li>
+                                <li><a href='learning-css.html#list-styles'><code>list-style-type</code></a></li>
+                                <li><a href='learning-css.html#text-decoration'><code>text-decoration</code></a></li>
+                                <li><a href='learning-css.html#text-align'><code>text-align</code></a></li>
+                                <li><a href='learning-css.html#font-weight-style'><code>font-weight</code>, <code>font-style</code></a></li>
+                                <li><a href='learning-css.html#css-hierarchy'>The CSS Hierarchy</a></li>
+                                <li><a href='learning-css.html#line-height'><code>line-height</code></a></li>
+                            </ul>
+                        </li>
+                        <li class='dropdown'>
+                            <a href='css-box-model.html'>The CSS Box Model ▾</a>
+                            <ul class='dropdown-items'>
+                                <li><a href='css-box-model.html#block-elements'>Block Element Rules</a></li>
+                                <li><a href='css-box-model.html#display'><code>display</code></a></li>
+                                <li><a href='css-box-model.html#box-model'>The CSS Box Model</a></li>
+                                <li><a href='css-box-model.html#padding'><code>padding</code></a></li>
+                                <li><a href='css-box-model.html#border'><code>border</code></a></li>
+                                <li><a href='css-box-model.html#margin'><code>margin</code></a></li>
+                                <li><a href='css-box-model.html#div-and-span'><code>&lt;div&gt;</code> and <code>&lt;span&gt;</code></a></li>
+                                <li><a href='css-box-model.html#explicit-dimensions'><code>width</code> and <code>height</code></a></li>
+                                <li><a href='css-box-model.html#box-sizing'><code>box-sizing</code></a></li>
+                                <li><a href='css-box-model.html#universal-css-selector'>Resetting Styles</a></li>
+                            </ul>
+                        </li>
+                        <li class='dropdown'>
+                            <a href='css-selectors.html'>CSS Selectors ▾</a>
+                            <ul class='dropdown-items'>
+                                <li><a href='css-selectors.html#class-selectors'><code>class</code></a></li>
+                                <li><a href='css-selectors.html#auto-margin'>Auto-margin</a></li>
+                                <li><a href='css-selectors.html#link-pseudo-classes'>Pseudo-classes for Links</a></li>
+                                <li><a href='css-selectors.html#button-pseudo-classes'>Pseudo-classes for Buttons</a></li>
+                                <li><a href='css-selectors.html#structure-pseudo-classes'>Pseudo-classes for Structure</a></li>
+                                <li><a href='css-selectors.html#id-selectors'><code>id</code></a></li>
+                                <li><a href='css-selectors.html#css-specificity'>CSS Specificity</a></li>
+                            </ul>
+                        </li>
+                        <li class='dropdown'>
+                            <a href='floats.html'>Floats ▾</a>
+                            <ul class='dropdown-items'>
+                                <li><a href='floats.html#float'>Floating an Element</a></li>
+                                <li><a href='floats.html#clear-float'>Clearing Floats</a></li>
+                                <li><a href='floats.html#hide-overflow'>Hiding Overflow</a></li>
+                                <li><a href='floats.html#float-column'>Multi-column Layout</a></li>
+                                <li><a href='floats.html#float-grid'>Floats for Grids</a></li>
+                                <li><a href='floats.html#float-image'>Floats and Images</a></li>
+                            </ul>
+                        </li>
+                        <li class='dropdown'>
+                            <a href='flexbox.html'>Flexbox ▾</a>
+                            <ul class='dropdown-items'>
+                                <li><a href='flexbox.html#flexbox'>Flex Containers</a></li>
+                                <li><a href='flexbox.html#flex-horiz'>Horizontal Alignment</a></li>
+                                <li><a href='flexbox.html#flex-vert'>Vertical Alignment</a></li>
+                                <li><a href='flexbox.html#flex-wrap'>Wrapping Flex Items</a></li>
+                                <li><a href='responsive-design.html#flex-direction'><code>flex-direction</code></a></li>
+                                <li><a href='responsive-design.html#flex-order'><code>order</code></a></li>
+                                <li><a href='responsive-design.html#flex-self'>Flex Item Alignment</a></li>
+                                <li><a href='responsive-design.html#flexible'><code>flex</code></a></li>
+                                <li><a href='responsive-design.html#flex-auto-margin'>Flex Items and Auto-margins</a></li>              
+                            </ul>
+                        </li>
+                        <li class='dropdown'>
+                            <a href='advanced-positioning.html'>Advanced Positioning ▾</a>
+                            <ul class='dropdown-items'>
+                                    <li><a href='advanced-positioning.html#position'><code>position</code></a></li>
+                                    <li><a href='advanced-positioning.html#inline-menu'>Inline Menu Items</a></li>
+                                    <li><a href='advanced-positioning.html#dropdown-pseudo'>Pseudo-classes for Dropdown Menus</a></li>
+                                </ul>
+                        </li>
+                        <li class='dropdown'>
+                            <a href='responsive-design.html'>Responsive Design ▾</a>
+                            <ul class='dropdown-items'>
+                                <li><a href='responsive-design.html#mobile'>Mobile Styles</a></li>
+                                <li><a href='responsive-design.html#tablet'>Tablet Styles</a></li>
+                                <li><a href='responsive-design.html#desktop'>Desktop Styles</a></li>
+                                <li><a href='responsive-design.html#patterns'>Responsive Web Design Patterns</a></li>
+                                <li><a href='responsive-design.html#viewport-zooming'>Disabling Viewport Zooming</a></li>
+                                <li><a href='responsive-design.html#svg-max-width'>Max Width for SVG Images</a></li>
+                                <li><a href='responsive-design.html#img-max-width'>Max Width for PNG, GIF, and JPG Images</a></li>
+                                <li><a href='responsive-design.html#retina-optimazation'>Retina Image Optimazation</a></li>
+                                <li><a href='responsive-design.html#screen-width'>Screen Size Optimazation</a></li>
+                            </ul>
+                        </li>
+                        <li class='dropdown'>
+                            <a href='semantic-html.html'>Semantic HTML ▾</a>
+                            <ul class='dropdown-items'>
+                                <li><a href='semantic-html.html#article'><code>&lt;article&gt;</code></a></li>
+                                <li><a href='semantic-html.html#section'><code>&lt;section&gt;</code></a></li>
+                                <li><a href='semantic-html.html#nav'><code>&lt;nav&gt;</code></a></li>
+                                <li><a href='semantic-html.html#header'><code>&lt;header&gt;</code></a></li>
+                                <li><a href='semantic-html.html#footer'><code>&lt;footer&gt;</code></a></li>
+                                <li><a href='semantic-html.html#aside'><code>&lt;aside&gt;</code></a></li>
+                                <li><a href='semantic-html.html#dates-and-times'>Dates and Times</a></li>
+                                <li><a href='semantic-html.html#address'><code>&lt;address&gt;</code></a></li>
+                                <li><a href='semantic-html.html#figures-captions'>Figures and Captions</a></li>
+                            </ul>
+                        </li>
+                        <li class='dropdown'>
+                            <a href='forms.html'>HTML Forms ▾</a>
+                            <ul class='dropdown-items'>
+                                <li><a href='forms.html#form-setup'>Setting Up a Form</a></li>
+                                <li><a href='forms.html#text-input'>Text Input Fields</a></li>
+                                <li><a href='forms.html#text-style'>Styling Text Input Fields</a></li>
+                                <li><a href='forms.html#email-input'>Email Input Fields</a></li>
+                                <li><a href='forms.html#form-pseudo-classes'>Form Pseudo-classes</a></li>
+                                <li><a href='forms.html#radio-buttons'>Radio Buttons</a></li>
+                                <li><a href='forms.html#select-menus'>Dropdown Menus</a></li>
+                                <li><a href='forms.html#select-menu-font'>Dropdown Menu Font Size</a></li>
+                                <li><a href='forms.html#textareas'>Textareas</a></li>
+                                <li><a href='forms.html#textareas-style'>Styling Textareas</a></li>
+                                <li><a href='forms.html#checkboxes'>Checkboxes</a></li>
+                                <li><a href='forms.html#submit'>Submit Buttons</a></li>
+                            </ul>
+                        </li>
+                        <li class='dropdown'>
+                            <a href='web-typography.html'>Web Typography ▾</a>
+                            <ul class='dropdown-items'>
+                                <li><a href='web-typography.html#web-fonts'>Web Fonts</a></li>
+                                <li><a href='web-typography.html#paragraph-indents'>Paragraph Indents</a></li>
+                                <li><a href='web-typography.html#text-alignment'>Text Alignment</a></li>
+                                <li><a href='web-typography.html#line-spacing'>Line Spacing</a></li>
+                                <li><a href='web-typography.html#line-length'>Line Length</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>                    
+            </div>            
+    
+            <div class='content-container'>
+                <div class='page-link'><a href='../forms/speaker-submission.html'>Visit the HTML Forms webpage.</a></div>
+
+                <h1>HTML Forms</h1>
+                <div class='intro'><p>HTML forms are used to collect input from your website's visitors. This includes elements such as mailing lists, contact forms, and blog post comments, and the most common types are text input, radio buttons, checkboxes, dropdown menus, text areas, and buttons.</p></div>
+
+                <div class='topic html' id='form-setup'>
+                    <h2>Setting Up a Form</h2>
+                    <p>Every HTML form begins with the aptly named <code>&lt;form&gt;</code> element. The most important attributes associated with the <code>&lt;form&gt;</code> are <code>action</code> and <code>method</code>. The <code>action</code> attribute defines the URL that process the form. Whatever information the user inputs before clicking the <strong>Submit</strong> button is sent to this special URL, usually some sort of <a href='https://nodejs.org/en/'>Node.js</a>, <a href='http://php.net/'>PHP</a>, or <a href='http://rubyonrails.org/'>Ruby on Rails</a>. The <code>method</code> attribute can be either <code>post</code> or <code>get</code>. Use <code>post</code> when you're <em>changing</em> data on the server, and <code>get</code> for when you're only <em>getting</em> data.</p>
+                    <p><code>&lt;form action='/server/' method ='get'&gt;</code></p>
+                </div>
+                
+                <div class='topic html' id='text-input'>
+                    <h2>Text Input Fields</h2>
+                    <p>To actually collect user input, you need the <code>&lt;input/&gt;</code> element.</p>
+                    <p><code>&lt;label for='full-name'&gt;Name&lt;/label&gt;</p>
+                    <p>&lt;input id='full-name' name='full-name' type='text'/&gt;</code></p>
+                    <p>In order to associate the <code>&lt;label&gt;</code> with the specific <code>&lt;input/&gt;</code>, the <code>for</code> attribute in the <code>&lt;label&gt;</code> element must match the <code>id</code> attribute in the <code>&lt;input/&gt;</code> element. The <code>name</code>  is like a variable name for the form, and the <code>type</code>  identifies the type of form it is. Adding a <code>value</code>  prepopulates the form with text.</p>
+                </div>
+
+                <div class='topic css' id='text-style'>
+                    <h2>Styling Text Input Fields</h2>
+                    <p>A new type of CSS selector called an attribute selector styles forms. For text input fields, put the following:</p>
+                    <p><code>input[type='text'] { }</code></p>
+                    <p>Note that the label can also be individually styled.</p>
+                    <p>To target a specific form, use a descendant selector, such as the <code>div</code> that contains the form.</p>
+                </div>
+
+                <div class='topic html' id='email-input'>
+                    <h2>Email Input Fields</h2>
+                    <p>Email inputs work exactly like the <code>type='text'</code> input, except the attributes usually include a <code>placeholder</code> that displays default text when the field is empty. This is a UX technique prompts the user to input their own email.</p>
+                    <p><code>&lt;label for='email'&gt;Email&lt;/label&gt;</p>
+                    <p>&lt;input id='email' name='email' type='email' placeholder='joe@example.com'/&gt;</code></p>
+                    <p>With the email input field, the user cannot submit the form if it does not contain a valid email. Additionally, for mobile users, the smartphone sees the <code>type='email'</code> attribute and gives the user a special email-specific keyboard with an easily-accessible @ character.</p>
+                    <p><a href='https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input'>Click here to check out other built-in validation attributes.</a></p>
+                </div>
+
+                <div class='topic css' id='form-pseudo-classes'>
+                    <h2>Form Pseudo-classes</h2>
+                    <p>To style "right" and "wrong" input values differently to users, use the <code>:invalid</code> and <code>:valid</code> pseudo-classes in the stylesheet. Typically invalid input fields are styled with a red border around the field box. The pseudo-class <code>:focus</code> selects the element that the user is currently filling out.</p>
+                    <p><code>box-shadow: none;</code> removes the default red glow in Firefox.</p>
+                </div>
+
+                <div class='topic html' id='radio-buttons'>
+                    <h2>Radio Buttons</h2>
+                    <p>Changing the <code>type</code> property to <code>radio</code> transforms the <code>&lt;input/&gt;</code> into a radio button. Since these types of forms require multiple selections, you must group them under the same label. Every radio button group you create should:</p>
+                    <ul>
+                        <li>Be wrapped in a <code>&lt;fieldset&gt;</code>, which is labeled with a <code>&lt;legend&gt;</code>.</li>
+                        <li>Associate a <code>&lt;label&gt;</code> element with each radio button.</li>
+                        <li>Use the same <code>name</code> attribute for each radio button in the group.</li>
+                        <li>Use different <code>value</code> attributes for each radio button.</li>
+                    </ul>
+                    <p><code>&lt;fieldset class='legacy-form-row'&gt;<br>
+                    &emsp;&emsp;&lt;legend&gt;Type of Talk&lt;/legend&gt;<br>
+                    &emsp;&emsp;&lt;input id='talk-type-1'<br>
+                    &emsp;&emsp;&emsp;&emsp;name='talk-type'<br>
+                    &emsp;&emsp;&emsp;&emsp;type='radio'<br>
+                    &emsp;&emsp;&emsp;&emsp;value='main-stage' /&gt;<br>
+                    &emsp;&emsp;&lt;label for='talk-type-1' class='radio-label'&gt;Main Stage&lt;/label&gt;<br>
+                    &emsp;&emsp;&lt;input id='talk-type-2'<br>
+                    &emsp;&emsp;&emsp;&emsp;name='talk-type'<br>
+                    &emsp;&emsp;&emsp;&emsp;type='radio'<br>
+                    &emsp;&emsp;&emsp;&emsp;value='workshop' <br>
+                    &emsp;&emsp;&emsp;&emsp;checked /&gt;<br>
+                    &emsp;&emsp;&lt;label for='talk-type-2' class='radio-label'&gt;Workshop&lt;/label&gt;<br>
+                    &lt;/fieldset&gt;</code></p>
+                    <p>While the <code>id</code> and the <code>for</code> attributes must match, <code>value</code> is the information sent to the server when the user submits the form. As usual, <code>class</code> groups elements for styling purposes. <code>name</code> groups the same radio button options together.</p>
+                    <p>For styling radio button inputs, it's best to revert back to float styling techniques to adjust the legend name and labels.</p>
+                </div>
+
+                <div class='topic html' id='select-menus'>
+                    <h2>Select Menus</h2>
+                    <p>The <code>&lt;select&gt;</code> element represents the dropdown menu, and it contains a bunch of <code>&lt;option&gt;</code> elements that  represent each item.</p>
+                    <p><code>&lt;label for='t-shirt'&gt;T-Shirt Size&lt;/label&gt;<br>
+                    &lt;select id='t-shirt' name='t-shirt'&gt;<br>
+                    &emsp;&emsp;&lt;option value='xs'&gt;Extra Small&lt;/option&gt;<br>
+                    &emsp;&emsp;&lt;option value='s'&gt;Small&lt;/option&gt;<br>
+                    &emsp;&emsp;&lt;option value='m'&gt;Medium&lt;/option&gt;<br>
+                    &emsp;&emsp;&lt;option value='l'&gt;Large&lt;/option&gt;<br>
+                    &lt;/select&gt;</code></p>
+                </div>
+
+                <div class='topic css' id='select-menu-font'>
+                    <h2>Select Menu Font Size</h2>
+                    <p>When setting a specific font size in a dropdown menu, stating <code>font-size</code> only really works on Firefox. To fix this for Chrome and Safari, use this vendor-specific prefix beneath the font size rule for the appearance property:</p>
+                    <p><code>-webkit-appearance: none;</code></p>
+                </div>
+
+                <div class='topic html' id='textareas'>
+                    <h2>Textareas</h2>
+                    <p>The <code>&lt;textarea&gt;</code> element creates a multi=line text field designed to carry large amounts of text from the user. They're suitable for things like biographies, essays, and comments.</p>
+                    <p><code>&lt;label for='abstract'&gt;Abstract&lt;/label&gt;<br>
+                    &lt;textarea id='abstract' name='abstract'&gt;&lt;/textarea&gt;<br>
+                    &lt;div class='instructions'&gt;Describe in 500 words or less&lt;/div&gt;</code></p>
+                </div>
+
+                <div class='topic css' id='textareas-style'>
+                    <h2>Styling Textareas</h2>
+                    <p>Much of styling textareas is intuitive, but it should be noted that textareas are not input types. Therefore, when singling one out in the stylesheet, simply use the <code>textarea</code> tag.</p>
+                    <p>To prevent the user from being able to resize the <code>&lt;textarea&gt;</code> elements to whatever dimensions they want, use the <code>resize: none;</code> property.</p>
+                </div>
+
+                <div class='topic html' id='checkboxes'>
+                    <h2>Checkboxes</h2>
+                    <p>Checkboxes are sort of like radio buttons, but they allow the user to pick as many options as they want. Since the browser won't have to narrow down which checkboxes are part of the same group, you won't need a <code>&lt;fieldset&gt;</code> wrapper or shared <code>name</code> attributes.</p>
+                    <p><code>&lt;label class='checkbox-label for='available'&gt;<br>
+                    &lt;input id='available'<br>
+                    &emsp;&emsp;name='available'<br>
+                    &emsp;&emsp;type='checkbox'<br>
+                    &emsp;&emsp;value='is-available'<br>
+                    &lt;span&gt;I'm available this day.&lt;/span&gt;<br>
+                    &lt;/label&gt;</code></p>
+                </div>
+
+                <div class='topic html' id='submit'>
+                    <h2>Submit Buttons</h2>
+                    <p>The <code>&lt;button&gt;</code> element represents a button that will submit its containing <code>&lt;form&gt;</code>.</p>
+                    <p></p>
+                </div>
+            </div>
+
+        </div>
+
+    </body>
+</html>

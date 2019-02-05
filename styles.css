@@ -1,0 +1,289 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/****** GENERAL ******/
+
+body {
+    color: #5a5a5a;
+    background-color: #fff2e2;
+    font-size: 17px;
+    font-family: 'Crimson Text', "Arial", sans-serif;
+    margin: 0;
+}
+
+.body-container {
+    display: flex;
+    justify-content: flex-start;
+    margin: 0;
+}
+
+h1 {
+    color: #363636;
+    padding: 20px;
+    font-size: 36px;
+}
+
+h2 {
+    margin: 0 0 10px 10px;
+    font-size: 24px;
+}
+
+h3 {
+    color: #7a7a7a;
+    margin: 40px 10px 10px 10px;
+}
+
+h1, h2, h3 {
+    font-family: 'Rufina', "Arial", serif;
+    font-weight: bold;
+}
+
+p {
+    margin: 15px 10px;
+    line-height: 140%;
+}
+
+p code, ul code, ol code {
+    color: rgb(11, 110, 50);
+    margin: 5px;
+    font-size: 16px;
+}
+
+a:link, a:visited {
+    color: #ec7d16; 
+}
+
+a:hover {
+    color: #f7af63;
+}
+/****** HEADER ******/
+
+.header-text {
+    font-size: 26px;    
+    color: #f8f7f1;
+    padding-left: 20px;
+    height: 60px;     
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+header {
+    background-color: #f16c44; 
+    margin: 0 auto;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 3;
+}
+
+a:hover .header-text {
+    color: #f8f7f1;
+}
+
+/****** SIDEBAR ******/
+
+.sidebar-container {
+    margin: 20px;
+    background-color: #f8f7f1;    
+    padding: 20px 20px 20px 10px;
+    display: flex;
+    justify-content: flex-start;
+    flex: initial;
+    min-width: 220px;
+    max-width: 220px;
+    border-top: 5px solid #f16c44;  
+    
+}
+
+.sidebar-container ul {
+    list-style-type: none;
+    margin-left: -15px;
+    line-height: 150%;
+    font-weight: 600;
+}
+
+.sidebar-container h2 {
+    margin-bottom: 20px;
+}
+
+.dropdown-items {
+    display: none;
+}
+
+.dropdown-items > li {
+    padding: 7px 0;
+    line-height: 120%;
+}
+
+.dropdown-items > li:last-of-type {
+    border: none;
+}
+
+.dropdown:hover .dropdown-items {
+    display: flex;
+    flex-direction: column;
+    background-color: #f3e5d7;
+    border-radius: 5px;
+    position: absolute;
+    left: 10px;
+    padding: 10px 15px;
+    font-size: 14px;
+    z-index: 1;
+}
+
+.dropdown-items > li > a > code {
+    font-size: 12px;
+    color: #ec7d16; 
+    margin: 0;
+}
+
+.dropdown-items > li > a:hover > code {
+    color: #f7af63;
+}
+
+.dropdown {
+    position: relative;
+}
+.dropdown > span {
+    position: relative;
+    z-index: 2;
+} 
+
+a {
+    text-decoration: none;
+}
+
+/****** PAGE CONTENT ******/
+/* 
+.top-of-page-button {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    padding: 10px;
+    background-color: #eed9a0;
+    color: white;
+    font-family: Arial;
+}
+
+.top-of-page-button a {
+    color: white;
+} */
+
+.empty-space {
+    height: 700px;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    display: block;
+    max-width: 500px;
+}
+
+.topic {
+    box-shadow: 5px 5px 5px #2c2c2c34;
+    -webkit-box-shadow: 5px 5px 5px #2c2c2c34;
+    background-color: #f0eeee;
+    padding: 40px 20px;
+    margin: 40px 20px;   
+}
+
+.top {
+    margin-top: 0;
+}
+
+.page-link {
+    line-height: 200%;
+    padding: 20px;
+}
+
+.html {
+    border-top: 5px solid #4cabff;
+    border-radius: 5px;
+}
+
+.css {
+    border-top: 5px solid #ffb325;
+    border-radius: 5px;
+}
+
+.button {
+    padding: 10px;
+    padding-left: 0;
+    color: #3e3e3e;
+    background-color: #7db3ff;
+    font-weight: bold;
+    width: 100px;
+    margin: 20px;
+    border-radius: 5px;
+    color: #333333;
+    text-align: center;
+    display: block;
+}
+
+.button:link,
+.button:visited {
+    display: block;
+    text-decoration: none;
+    color: #333333;
+}
+
+ul, ol {
+    padding-left: 25px;
+    line-height: 120%;
+}
+
+.page-link {
+    display: inline;
+}
+
+.home-content-container {
+    margin: 10px;
+}
+
+.content-container {
+    padding: 0 40px;
+    margin: 0 auto;
+    flex: initial;
+    min-width: 600px;
+}
+
+
+.intro p {
+    margin: 40px;
+    margin-top: 0;
+    padding: 10px 15px;
+    background-color: #f1f1f1;
+    border: 2px solid #d1cfcf;
+    border-radius: 3px;
+}
+
+.page-container {
+    margin: 0;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.body-container {
+    margin-top: 70px;
+}
+
+.extra {
+    margin-bottom: 50px;
+}
+
+/****** FOOTER ******/
+
+footer {
+    height: 100px;
+    background-color: #f08d65;
+    float: center;
+    width: 100%;
+    margin: 0;
+    padding-top: 25px;
+}
